@@ -13,7 +13,7 @@
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -22,8 +22,16 @@
 .banner-new-list {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
   &:hover {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
   }
+}
+
+.home-page-text h3 {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }

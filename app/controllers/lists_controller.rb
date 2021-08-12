@@ -4,10 +4,12 @@ class ListsController < ApplicationController
   end
 
   def show
+    @lists = List.all
     @list = List.find(params[:id])
   end
 
   def new
+    @lists = List.all
     @list = List.new
   end
 

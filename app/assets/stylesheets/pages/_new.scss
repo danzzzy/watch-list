@@ -1,0 +1,17 @@
+.background-style {
+  background-image: url("https://images.unsplash.com/photo-1485846234645-a62644f84728?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1640&q=80");
+  height: 100vh;
+  padding-top: 80px;
+}
+.create-container {
+  margin: auto;
+  border: 3px solid white;
+  padding: 16px 0 16px 0;
+  width: 50%;
+  background-color: rgba(73, 150, 140, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+  h1 {
+    color: white;
+  }
+}
