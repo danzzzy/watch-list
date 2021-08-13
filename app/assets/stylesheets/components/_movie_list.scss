@@ -1,7 +1,8 @@
 .home-page-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
+  column-gap: 24px;
+  row-gap: 16px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
