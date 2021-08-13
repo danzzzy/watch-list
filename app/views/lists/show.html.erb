@@ -1,7 +1,16 @@
 <%= render "components/show_navbar" %>
 
-<div class="container mt-5">
-<div class="show-header-text"><%= @list.name %></div>
+<div class="container mt-5" >
+<div class="show-header-text">
+  <div>
+    <% if @list.photo.attached? %>
+      <%= cl_image_path(@list.photo.key) %>
+    <% else %>
+      <%= cl_image_tag('samples/animals/kitten-playing.gif', class: "avatar")%>
+    <% end %>
+  </div>
+  <%= @list.name %>
+</div>
 <% @list.bookmarks.each do |bookmark| %>
 <div class="card-product">
   <%= image_tag(bookmark.movie.poster_url) %>
