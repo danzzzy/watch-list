@@ -19,6 +19,5 @@ import 'bootstrap';
 import { initSelect2 } from '../components/select2';
 
 document.addEventListener("turbolinks:load", function () {
-  console.log("It connects")
   initSelect2();
 });
