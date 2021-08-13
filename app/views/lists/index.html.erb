@@ -17,7 +17,7 @@
         <%= cl_image_tag list.photo.key, width: 200, crop: :fill %>
         <% else %>
         <%= link_to list.name, list_path(list), class: "my-list" %>
-        <%= cl_image_tag "samples/animals/kitten-playing.gif", width: 200, crop: :fill %>
+        <%# <%= cl_image_tag "samples/animals/kitten-playing.gif", width: 200, crop: :fill %>
       <% end %>
     </div>
   <% end %>
