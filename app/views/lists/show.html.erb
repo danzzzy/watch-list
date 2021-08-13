@@ -4,7 +4,7 @@
 <div class="show-header-text">
   <div>
     <% if @list.photo.attached? %>
-      <%= cl_image_path(@list.photo.key) %>
+      <%= cl_image_tag(@list.photo.key, class: "avatar") %>
     <% else %>
       <%= cl_image_tag('samples/animals/kitten-playing.gif', class: "avatar")%>
     <% end %>
